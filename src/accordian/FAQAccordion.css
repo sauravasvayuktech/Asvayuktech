@@ -1,0 +1,6 @@
+.accordion-button, .accordion-button:not(.collapsed) {
+    background-color: transparent!important;
+    color: #000!important;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

@@ -27,7 +27,7 @@ function App() {
           <AutoPopupModal />
         </Suspense>
         <Outlet />
-        {/* <Footer /> */}
+        <Footer />
       </LanguageProvider>
     </>
   );

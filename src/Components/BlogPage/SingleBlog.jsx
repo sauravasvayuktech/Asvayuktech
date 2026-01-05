@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import flag from '../../Images/flag.webp'
 import seo from "../../Images/seo_banner.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
+import ContactForm from '../ContactPage/ContactForm';
 function SingleBlog() {
     return (
         <>
@@ -24,7 +25,7 @@ function SingleBlog() {
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
                                     <h1>
-                                        <b> The Secret Source of SEO: Unleashing Success with Vipasha Ghai Approach
+                                        <b> The Secret Source of SEO: Unleashing Success with Naman Sharma Approach
                                         </b>
                                     </h1>
                                     <div className="blog_card_img mt-4">
@@ -38,12 +39,12 @@ function SingleBlog() {
                                     </div>
                                     <div className="blog_card_para mt-3">
                                         <p>
-                                            SEO in the 21st century is more of a secret power in delivering success to businesses that navigate the internet. Vipasha Ghai, helps brands get optimized to better their online presence and come first in the search rankings. Here are some tactics known to work, must-dos as dictated by Vipasha for you to achieve what you would in terms of mastering the art of your digital marketing campaign to enable organic growth of your websites.
+                                            SEO in the 21st century is more of a secret power in delivering success to businesses that navigate the internet. Naman Sharma, helps brands get optimized to better their online presence and come first in the search rankings. Here are some tactics known to work, must-dos as dictated by Vipasha for you to achieve what you would in terms of mastering the art of your digital marketing campaign to enable organic growth of your websites.
                                         </p>
                                         <h3><b>What Makes SEO So Important?</b>
                                         </h3>
                                         <p>SEO, or Search Engine Optimization, is what makes your website appear on search engines like Google. Without it, even the most brilliant content or business ideas can stay hidden. SEO optimizes your website in such a way that it appears at the top of search results when users are searching for relevant keywords. This increases traffic, leads, and ultimately, conversions.</p>
-                                        <h3><b>Vipasha Ghai's Proven SEO Tactics for Success
+                                        <h3><b>Naman Sharma's Proven SEO Tactics for Success
                                         </b></h3>
                                         <ol>
                                             <li><b>Keyword Research: Discovering Your Digital Footprint</b></li>
@@ -90,7 +91,7 @@ function SingleBlog() {
                                     </div>
                                     <h4><b>Conclusion
                                     </b></h4>
-                                    <p>SEO is an Ongoing Journey. This means SEO is not done at a one-time moment in the time frame. One should consider it as something on the cards with strategy, patience, and consistency to increase chances of success with your strategy for online presence using SEO expert Vipasha Ghai. Whether a fresher to SEO or planning on redefining it through proper strategy for future and sustainability, adopting such methods will lead toward guaranteed digital success.
+                                    <p>SEO is an Ongoing Journey. This means SEO is not done at a one-time moment in the time frame. One should consider it as something on the cards with strategy, patience, and consistency to increase chances of success with your strategy for online presence using SEO expert Naman Sharma. Whether a fresher to SEO or planning on redefining it through proper strategy for future and sustainability, adopting such methods will lead toward guaranteed digital success.
                                     </p>
                                 </div>
                                 <div className="post_tags">
@@ -115,21 +116,19 @@ function SingleBlog() {
                                     </Link>
                                 </div>
                                 <div className="post_box d-sm-flex align-items-start gap-4">
-                                    <div className="post_box_author_thumb">
-                                        <Link to="#">
-                                            <img src={author_thumb} className="img-circle" />
-                                        </Link>
-                                    </div>
+                                    {/* <div className="post_box_author_thumb">
+                                        <img src={author_thumb} className="img-circle" alt="Author" />
+                                    </div> */}
                                     <div className="post_box_author_content">
                                         <h3 className="post_box_author_title">
-                                            <Link to="#">Vipasha Ghai</Link>
+                                            <Link to="#">Naman Sharma</Link>
                                         </h3>
                                         <p>
-                                            Vipasha Ghai is a seasoned digital marketing expert at Asvayuk Technologies, a renowned software development company. With extensive experience in SEO, PPC, content strategy, and social media marketing, she crafts innovative marketing campaigns that elevate brand presence, drive quality traffic, and boost conversions. Vipasha takes a strategic, results-driven approach to help businesses achieve long-term growth through data-backed decisions and a deep understanding of market trends.
+                                            Naman Sharma is a seasoned digital marketing expert at Asvayuk Technologies, a renowned software development company. With extensive experience in SEO, PPC, content strategy, and social media marketing, she crafts innovative marketing campaigns that elevate brand presence, drive quality traffic, and boost conversions. Vipasha takes a strategic, results-driven approach to help businesses achieve long-term growth through data-backed decisions and a deep understanding of market trends.
                                             At Asvayuk Technologies, she works hand-in-hand with development teams to integrate cutting-edge technology with impactful marketing strategies, ensuring that every campaign delivers measurable success and drives business value.
                                         </p>
                                         <div className="post_box_author_social d-flex align-items-center">
-                                            <Link to="https://www.linkedin.com/in/vipasha-ghai-621830311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                            <Link to="https://www.linkedin.com/in/naman-sharma-7b8558223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                                                 <FaLinkedinIn />
                                             </Link>
                                         </div>
@@ -166,7 +165,14 @@ function SingleBlog() {
                             </Col>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="form-container">
-                                    <iframe width="100%" height="480px" src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca" frameBorder="0" allowfullscreen></iframe>
+                                    {/* <iframe
+                                        width="100%"
+                                        height="480px"
+                                        src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    ></iframe> */}
+                                    <ContactForm/>
                                 </div>
                             </div>
                         </Row>

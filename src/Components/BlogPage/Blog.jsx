@@ -30,12 +30,13 @@ import MLMAppImage from '../../Images/MultiLevelMarketing.png';
 import NetworkMarketingImage from '../../Images/networkMarketing.png';
 import CryptoAppImage from '../../Images/CryptocurrencyAppDev.png';
 import UIUXDesignImage from '../../Images/UIUX_DesignSolutions.png';
-import ShopifyDevImage from '../../Images/shopifyDeve.png';
+import ShopifyDevImage from '../../Images/shopifyDeve.webp';
 import SEOImage from '../../Images/seoWeb.png';
 import CRMImage from '../../Images/crmSoftware.png';
 import BlockchainSecurityImage from '../../Images/secureBlockchain.png';
 import ecommerceDeveImg from "../../Images/ecommerceDeve.webp";
 import webDevServices from "../../Images/webDevServices.png";
+import ContactForm from '../ContactPage/ContactForm';
 
 function Blog() {
     return (
@@ -303,15 +304,15 @@ function Blog() {
                                     </Col>
 
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <Link to="/blog/shopify-development-services-chandigarh">
+                                        <Link to="/blog/shopify-vs-magento-vs-woocommerce-comparison-2025">
                                             <CardBlog
                                                 singleBlogImg={ShopifyDevImage}
-                                                time="12 Dec 2024"
-                                                blogTitle="Shopify Development Services in Chandigarh"
-                                                blogPara="Get top-notch Shopify development services to build your online store efficiently."
+                                                time="12 Dec 2025"
+                                                blogTitle="Shopify vs. Magento vs. WooCommerce: Best Choice for 2025?"
+                                                blogPara="Confused between Shopify, Magento, or WooCommerce? Discover the pros, cons, and hidden costs of each eCommerce platform. Choose the right scale for your brand in 2025."
                                                 CommentNum="2"
                                                 viwer="260"
-                                                urlSingleBlog="/blog/shopify-development-services-chandigarh"
+                                                urlSingleBlog="/blog/shopify-vs-magento-vs-woocommerce-comparison-2025"
                                             />
                                         </Link>
                                     </Col>
@@ -362,9 +363,9 @@ function Blog() {
                                         <Link to="/blog/ecommerce-web-development-chandigarh">
                                             <CardBlog
                                                 singleBlogImg={ecommerceDeveImg}
-                                                time="12 Dec 2024"
-                                                blogTitle="E-commerce Web Development in Chandigarh with Asvayuk Technologies: Your Partner for Success"
-                                                blogPara="Chandigarh is home to a rapidly growing business landscape, with many companies seeking to tap into the advantages of e-commerce. "
+                                                time="12 Dec 2025"
+                                                blogTitle="Why Your Retail Business Needs a Custom eCommerce App"
+                                                blogPara="Learn how custom eCommerce app development boosts retail sales, improves customer loyalty, and streamlines inventory. Expert insights by Asvayuk Technologies. "
                                                 CommentNum="1"
                                                 viwer="300"
                                                 urlSingleBlog="/blog/ecommerce-web-development-chandigarh"
@@ -389,7 +390,14 @@ function Blog() {
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <div className="form-container">
-                                    <iframe width="100%" height="480px" src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca" frameBorder="0" allowfullscreen></iframe>
+                                    {/* <iframe
+                                        width="100%"
+                                        height="480px"
+                                        src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    ></iframe> */}
+                                    <ContactForm />
                                 </div>
                             </Col>
                         </Row>

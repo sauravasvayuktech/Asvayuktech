@@ -4,6 +4,7 @@ import c3 from "../../Images/crypto.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
 import { FaLinkedinIn } from 'react-icons/fa';
 import author_thumb from '../../Images/vipasha2.jpg'
+import ContactForm from '../ContactPage/ContactForm';
 
 function Crypto_Software_Developer_in_Chandigarh() {
     return (
@@ -96,21 +97,19 @@ function Crypto_Software_Developer_in_Chandigarh() {
                                 </div>
 
                                 <div className="post_box d-sm-flex align-items-start gap-4">
-                                    <div className="post_box_author_thumb">
-                                        <Link to="#">
-                                            <img src={author_thumb} className="img-circle" />
-                                        </Link>
-                                    </div>
+                                    {/* <div className="post_box_author_thumb">
+                                        <img src={author_thumb} className="img-circle" alt="Author" />
+                                    </div> */}
                                     <div className="post_box_author_content">
                                         <h3 className="post_box_author_title">
-                                            <Link to="#">Vipasha Ghai</Link>
+                                            <Link to="#">Naman Sharma</Link>
                                         </h3>
                                         <p>
-                                            Vipasha Ghai is a seasoned digital marketing expert at Asvayuk Technologies, a renowned software development company. With extensive experience in SEO, PPC, content strategy, and social media marketing, she crafts innovative marketing campaigns that elevate brand presence, drive quality traffic, and boost conversions. Vipasha takes a strategic, results-driven approach to help businesses achieve long-term growth through data-backed decisions and a deep understanding of market trends.
+                                            Naman Sharma is a seasoned digital marketing expert at Asvayuk Technologies, a renowned software development company. With extensive experience in SEO, PPC, content strategy, and social media marketing, she crafts innovative marketing campaigns that elevate brand presence, drive quality traffic, and boost conversions. Vipasha takes a strategic, results-driven approach to help businesses achieve long-term growth through data-backed decisions and a deep understanding of market trends.
                                             At Asvayuk Technologies, she works hand-in-hand with development teams to integrate cutting-edge technology with impactful marketing strategies, ensuring that every campaign delivers measurable success and drives business value.
                                         </p>
                                         <div className="post_box_author_social d-flex align-items-center">
-                                            <Link to="https://www.linkedin.com/in/vipasha-ghai-621830311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                            <Link to="https://www.linkedin.com/in/naman-sharma-7b8558223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                                                 <FaLinkedinIn />
                                             </Link>
                                         </div>
@@ -141,7 +140,14 @@ function Crypto_Software_Developer_in_Chandigarh() {
 
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="form-container">
-                                    <iframe width="100%" height="480px" src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca" frameBorder="0" allowfullscreen></iframe>
+                                    {/* <iframe
+                                        width="100%"
+                                        height="480px"
+                                        src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    ></iframe> */}
+                                    <ContactForm/>
                                 </div>
                             </div>
                         </Row>

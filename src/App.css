@@ -814,6 +814,10 @@ form {
   position: relative;
 }
 
+.form-container form {
+  padding: 0;
+}
+
 .input-container.focused label,
 .input-container input:focus+label,
 .input-container textarea:focus+label {
@@ -6341,4 +6345,9 @@ div#root {
   100% {
     transform: rotate(1turn)
   }
+}
+
+.imageBlog.overflow-hidden {
+    width: 100%;
+    max-height: 180px;
 }

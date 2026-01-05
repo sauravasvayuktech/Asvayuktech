@@ -5,6 +5,7 @@ import ui_ux_design_image from "../../Images/UIUX_DesignSolutions.png";
 import Meta_Component from '../Meta_Component/Meta_Component';
 import { FaLinkedinIn } from 'react-icons/fa';
 import author_thumb from '../../Images/vipasha2.jpg'
+import ContactForm from '../ContactPage/ContactForm';
 
 function UIUXDesign() {
     return (
@@ -109,19 +110,19 @@ function UIUXDesign() {
                                     </div>
                                     <div className="post_box d-sm-flex align-items-start gap-4">
                                         <div className="post_box_author_thumb">
-                                            <Link to="#">
+                                            {/* <Link to="#">
                                                 <img src={author_thumb} className="img-circle" alt="Author Profile Picture" />
-                                            </Link>
+                                            </Link> */}
                                         </div>
                                         <div className="post_box_author_content">
                                             <h3 className="post_box_author_title">
-                                                <Link to="#">Vipasha Ghai</Link>
+                                                <Link to="#">Naman Sharma</Link>
                                             </h3>
                                             <p>
-                                                Vipasha Ghai is a digital marketing strategist at Asvayuk Technologies, specializing in enhancing brand visibility through SEO, content marketing, and data-driven design insights. With a focus on UI/UX trends, she ensures that businesses deliver exceptional digital experiences to their users.
+                                                Naman Sharma is a digital marketing strategist at Asvayuk Technologies, specializing in enhancing brand visibility through SEO, content marketing, and data-driven design insights. With a focus on UI/UX trends, she ensures that businesses deliver exceptional digital experiences to their users.
                                             </p>
                                             <div className="post_box_author_social d-flex align-items-center">
-                                                <Link to="https://www.linkedin.com/in/vipasha-ghai-621830311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                                <Link to="https://www.linkedin.com/in/naman-sharma-7b8558223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                                                     <FaLinkedinIn />
                                                 </Link>
                                             </div>
@@ -181,7 +182,14 @@ function UIUXDesign() {
                             </Col>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="form-container">
-                                    <iframe width="100%" height="480px" src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca" frameBorder="0" allowfullscreen></iframe>
+                                    {/* <iframe
+                                        width="100%"
+                                        height="480px"
+                                        src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    ></iframe> */}
+                                    <ContactForm/>
                                 </div>
                             </div>
                         </Row>

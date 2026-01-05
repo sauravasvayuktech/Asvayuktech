@@ -91,7 +91,7 @@ export const blogRoutes = [
     element: <UIUXDesign />,
   },
   {
-    path: "/blog/shopify-development-services-chandigarh",
+    path: "/blog/shopify-vs-magento-vs-woocommerce-comparison-2025",
     element: <ShopifyDevelopmentServices />,
   },
   {

@@ -5,6 +5,7 @@ import seo_web_design_image from "../../Images/seoWeb.png";
 import Meta_Component from '../Meta_Component/Meta_Component';
 import { FaLinkedinIn } from 'react-icons/fa';
 import author_thumb from '../../Images/vipasha2.jpg'
+import ContactForm from '../ContactPage/ContactForm';
 
 function SEOWebDesign() {
     return (
@@ -99,13 +100,13 @@ function SEOWebDesign() {
                                         </div>
                                         <div className="post_box_author_content">
                                             <h3 className="post_box_author_title">
-                                                <Link to="#">Vipasha Ghai</Link>
+                                                <Link to="#">Naman Sharma</Link>
                                             </h3>
                                             <p>
-                                                Vipasha Ghai is a digital marketing strategist at Asvayuk Technologies, specializing in SEO-driven web design, PPC campaigns, and comprehensive digital solutions. Her expertise ensures businesses thrive in the online space.
+                                                Naman Sharma is a digital marketing strategist at Asvayuk Technologies, specializing in SEO-driven web design, PPC campaigns, and comprehensive digital solutions. Her expertise ensures businesses thrive in the online space.
                                             </p>
                                             <div className="post_box_author_social d-flex align-items-center">
-                                                <Link to="https://www.linkedin.com/in/vipasha-ghai-621830311">
+                                                <Link to="https://www.linkedin.com/in/naman-sharma-7b8558223/">
                                                     <FaLinkedinIn />
                                                 </Link>
                                             </div>
@@ -141,7 +142,14 @@ function SEOWebDesign() {
                             </Col>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="form-container">
-                                    <iframe width="100%" height="480px" src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca" frameBorder="0" allowfullscreen></iframe>
+                                    {/* <iframe
+                                        width="100%"
+                                        height="480px"
+                                        src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    ></iframe> */}
+                                    <ContactForm/>
                                 </div>
                             </div>
                         </Row>

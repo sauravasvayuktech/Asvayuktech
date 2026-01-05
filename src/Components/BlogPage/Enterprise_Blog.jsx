@@ -174,16 +174,14 @@ function Enterprise_Blog() {
 
                 <div className="post_box d-sm-flex align-items-start gap-4">
                   <div className="post_box_author_thumb">
-                    <Link to="#">
-                      <img src={author_thumb} className="img-circle" />
-                    </Link>
+                    {/* <img src={author_thumb} className="img-circle" alt="Author" /> */}
                   </div>
                   <div className="post_box_author_content">
                     <h3 className="post_box_author_title">
-                      <Link to="#">Vipasha Ghai</Link>
+                      <Link to="#">Naman Sharma</Link>
                     </h3>
                     <p>
-                      Vipasha Ghai is a seasoned digital marketing expert at
+                      Naman Sharma is a seasoned digital marketing expert at
                       Asvayuk Technologies, a renowned software development
                       company. With extensive experience in SEO, PPC, content
                       strategy, and social media marketing, she crafts
@@ -199,7 +197,7 @@ function Enterprise_Blog() {
                       value.
                     </p>
                     <div className="post_box_author_social d-flex align-items-center">
-                      <Link to="https://www.linkedin.com/in/vipasha-ghai-621830311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <Link to="https://www.linkedin.com/in/naman-sharma-7b8558223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                         <FaLinkedinIn />
                       </Link>
                     </div>

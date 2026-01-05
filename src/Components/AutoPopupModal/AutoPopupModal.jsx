@@ -132,11 +132,26 @@ const AutoPopupModal = () => {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        const idleCallback = requestIdleCallback(() => {
-            setTimeout(() => setIsVisible(true), 3000);
-        });
+        let idleId;
 
-        return () => cancelIdleCallback(idleCallback);
+        if ('requestIdleCallback' in window) {
+            idleId = window.requestIdleCallback(() => {
+                setTimeout(() => setIsVisible(true), 3000);
+            });
+        } else {
+            // iOS Safari fallback
+            idleId = setTimeout(() => {
+                setIsVisible(true);
+            }, 3000);
+        }
+
+        return () => {
+            if ('cancelIdleCallback' in window) {
+                window.cancelIdleCallback(idleId);
+            } else {
+                clearTimeout(idleId);
+            }
+        };
     }, []);
 
     const handleClose = () => {
@@ -253,7 +268,7 @@ const AutoPopupModal = () => {
                                                 <input name="phone" onChange={handleChange} type="text" className="form-control" id="inputName"
                                                     placeholder="Moible Number" />
                                             </div>
-                                            
+
                                         </div>
                                         <div className="form-row message-group w-100 pb-0 pb-lg-4 pb-md-4">
                                             <div className="form-group col-lg-12 py-3 py-lg-0 py-md-0">

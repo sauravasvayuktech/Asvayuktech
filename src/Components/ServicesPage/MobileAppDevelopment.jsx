@@ -141,7 +141,7 @@ function MobileAppDevelopment() {
                   Why Our App Development Service Chandigarh Stands Out
                 </h2>
                 <div>
-                  <p className="text-white lh-md fs-6 pt-3 text-center pb-2">
+                  <p className="text-white lh-md fs-6 pt-3  pb-2">
                     We are a trusted mobile app development company with a
                     strong presence in Chandigarh. Our approach combines
                     creativity, technology, and strategy to deliver apps that

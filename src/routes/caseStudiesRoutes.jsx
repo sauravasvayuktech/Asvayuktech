@@ -26,5 +26,5 @@ export const caseStudiesRoutes = [
   { path: "/case-studies/bookmytask", element: <Bookmytask /> },
   { path: "/case-studies/kreshya", element: <Kreshya /> },
     { path: "/case-studies/layerx", element: <Layerx /> },
-    { path: "/case-studies/opensea", element: <OpenSea /> },
+    { path: "/case-studies/openseacap", element: <OpenSea /> },
 ];

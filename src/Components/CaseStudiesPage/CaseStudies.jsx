@@ -81,7 +81,7 @@ function CaseStudies() {
 
                         <CaseCard caseLogo={layerlogo} caseTitle='Welcome To LayerEx – Your Gateway To Seamless Crypto Trading!' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/layerx' btnTitle='View Case Study' caseImg={layerx} cardChild='card_child_1 card_child_9' cardImgClass='card_img card_img9' />    
 
-                        <CaseCard caseLogo={rel20} caseTitle='MTHT Token Listing' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/kreshya' btnTitle='View Case Study' caseImg={btCash} cardChild='card_child_1 card_child_10' cardImgClass='card_img card_img10' />
+                        <CaseCard caseLogo={rel20} caseTitle='MTHT Token Listing' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/openseacap' btnTitle='View Case Study' caseImg={btCash} cardChild='card_child_1 card_child_10' cardImgClass='card_img card_img10' />
                     </Container>
                 </section>
             </main>

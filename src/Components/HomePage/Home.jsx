@@ -453,11 +453,11 @@ function Home() {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/opensea"><img src={btCash} alt="Affordable Magento Development Chandigarh" className="img-fluid layerX-img"  /></Link>
+                                                    <Link to="/case-studies/openseacap"><img src={btCash} alt="Affordable Magento Development Chandigarh" className="img-fluid layerX-img"  /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
-                                                    <p className="mb-0 pb-1"><Link to="/case-studies/opensea">Website Development</Link></p>
-                                                    <h5><Link to="/case-studies/opensea">Openseacap</Link></h5>
+                                                    <p className="mb-0 pb-1"><Link to="/case-studies/openseacap">Website Development</Link></p>
+                                                    <h5><Link to="/case-studies/openseacap">Openseacap</Link></h5>
                                                 </div>
                                             </div>
                                         </SwiperSlide>

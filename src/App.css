@@ -3295,7 +3295,10 @@ footer a {
 .tab-menus>a:active .megaMenu {
   opacity: 0 !important;
 }
-
+.faq .accordion-button:not(.collapsed) {
+    color: #212529;
+    font-size: 16px;
+}
 /* home  */
 
 .banner_textInfo h1 {

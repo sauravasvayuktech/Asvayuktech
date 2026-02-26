@@ -15,7 +15,7 @@ function CardBlog({ singleBlogImg, time, blogTitle, blogPara, CommentNum, viwer,
                         <div className="date text-start">
                             <span>
                                 <FaRegClock />
-                                {time}
+                               <span className='ps-1'>{time}</span>
                             </span>
                         </div>
                         <div className="card_para_1 mt-2">

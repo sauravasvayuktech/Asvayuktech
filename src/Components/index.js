@@ -80,7 +80,7 @@ import SecureBlockchainSoftware from "./BlogPage/SecureBlockchainSoftware.jsx";
 import ECommerceWebDevelopment from "./BlogPage/ECommerceWebDevelopment.jsx";
 import CustomWebDesign from "./BlogPage/CustomWebDesign.jsx";
 
-export{ Home, About, Contact, CaseStudies, Blog, 
+export{ Home, About, Contact, CaseStudies, Blog,
   EnterprisePortalDevelopment, MobileAppDevelopment, Website_Development, Performance, LowCode_NoCode, Woocomerce, Ecommerce, BlockChain,
   Magento_Dev, React_Native, Saas_Dev, Shopify_Dev, Software_Dev, Laravel_Dev, Ar_Vr_Dev,
   Social_Media_Marketing, Search_Engine_Opti, UI_UX_Design,

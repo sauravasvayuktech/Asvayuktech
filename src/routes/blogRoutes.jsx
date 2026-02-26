@@ -1,4 +1,7 @@
 import { Blog, SingleBlog, Shopify_Blog, Enterprise_Blog, MLM_software_developer_Chandigarh, Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali, Crypto_Software_Developer_in_Chandigarh, Crypto_Exchange_Developer, Blockchain_Developer,CRMDdeveloper, MetaverseDeveloper, SoftwareDeveloper, SmartContractDeveloperNew, BlockchainSolutions,   NFT_Development, DAppDevelopment, MLMSoftwareNew, HybridMLMSoftware, MLMPlanGenerator, Web3Development,   NetworkMarketing,CryptocurrencyApp ,UIUXDesign ,ShopifyDevelopmentServices ,SEOWebDesign ,CRMSoftware ,SecureBlockchainSoftware ,ECommerceWebDevelopment ,CustomWebDesign } from "../Components";
+import AiAutomation from "../Components/BlogPage/AiAutomation";
+import Crypto_Exchange_Platform_2026 from "../Components/BlogPage/Crypto_Exchange_Platform_2026";
+import Custom_Software_Development from "../Components/BlogPage/Custom_Software_Development";
 
 export const blogRoutes = [
   { path: "/blog", element: <Blog /> },
@@ -113,5 +116,17 @@ export const blogRoutes = [
   {
     path: "/blog/custom-web-design-chandigarh",
     element: <CustomWebDesign />,
+  },
+   {
+    path: "/blog/how-to-build-secure-crypto-exchange-platform-2026",
+    element: <Crypto_Exchange_Platform_2026 />,
+  },
+  {
+    path: "/blog/custom-software-vs-ready-made-enterprises",
+    element: <Custom_Software_Development />,
+  },
+  {
+    path: "/blog/ai-automation-integration-enterprise-guide",
+    element: <AiAutomation />,
   },
 ];
